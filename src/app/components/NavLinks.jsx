@@ -14,7 +14,7 @@ const NavLinks = () => {
         <Link href="/all-trees">All Trees</Link>
       </li>
       <li>
-        <Link href="/login">Login</Link>
+        <Link href="/contact">Contact Us</Link>
       </li>
     </>
   );

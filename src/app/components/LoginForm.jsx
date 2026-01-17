@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import toast from "react-hot-toast";
 const MOCK_USER = {
   email: "demo@postly.com",
   password: "123456",
@@ -14,9 +15,10 @@ const LoginForm = () => {
     e.preventDefault();
     if (email === MOCK_USER.email && password === MOCK_USER.password) {
       document.cookie = "loggedIn=true; path=/;";
-      router.push("/all-products");
+      router.push("/all-trees");
+      toast.success('Logged in successfully!')
     } else {
-      alert("Invalid email or password")
+      toast.error("Invalid email or password")
     }
   };
 

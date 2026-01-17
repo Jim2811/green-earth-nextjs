@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import toast from 'react-hot-toast'
 
 const LoginBtn = () => {
   const [loggedIn, setLoggedIn] = useState(false)
@@ -14,6 +15,7 @@ const LoginBtn = () => {
     document.cookie =
       'loggedIn=false; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;'
     setLoggedIn(false)
+    toast.success("Logged Out Successfully!")
     window.location.reload()
   }
 
