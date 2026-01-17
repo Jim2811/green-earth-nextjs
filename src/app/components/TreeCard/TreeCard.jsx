@@ -19,7 +19,7 @@ export default function TreeCard({ tree }) {
       <div className="p-5 text-center flex-grow flex flex-col justify-between">
         <div>
           <h3 className="text-xl font-semibold text-green-800">{tree.name}</h3>
-          <p className="mt-2 font-bold text-green-700">{tree.price}</p>
+          <p className="mt-2 font-bold text-green-700">$ {tree.price}</p>
         </div>
         <Link
           href={`/all-trees/${tree.id}`}

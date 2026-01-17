@@ -29,11 +29,7 @@ export default function AllTrees() {
             {trees.map((tree) => (
               <TreeCard
                 key={tree.id || tree._id}
-                tree={{
-                  name: tree.name,
-                  price: tree.price || '৳ —',
-                  image: tree.image,
-                }}
+                tree={tree}
               />
             ))}
           </div>
