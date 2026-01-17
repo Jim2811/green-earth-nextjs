@@ -146,7 +146,7 @@ vercel --prod   # Deploy production
 
 ## 🌍 Live Demo
 
-> *Add your deployed Vercel link here*
+> https://green-earth-nextjs-6qvzx6b1d-jim2811s-projects.vercel.app/
 
 ---
 
