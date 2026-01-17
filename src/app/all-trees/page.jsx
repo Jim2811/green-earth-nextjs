@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Posts = () => {
+const AllTrees = () => {
     return (
         <div>
-            
+            all trees
         </div>
     );
 };
 
-export default Posts;
+export default AllTrees;

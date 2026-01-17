@@ -11,7 +11,7 @@ const NavLinks = () => {
         <Link href="/about">About</Link>
       </li>
       <li>
-        <Link href="/items">All Trees</Link>
+        <Link href="/all-trees">All Trees</Link>
       </li>
       <li>
         <Link href="/login">Login</Link>
